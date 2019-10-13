@@ -1,0 +1,19 @@
+*** TEXT TAKEN FROM LINUX DOCUMENTATION ***
+Coccinelle
+
+Using Coccinelle on the Linux kernel
+A Coccinelle-specific target is defined in the top level Makefile. This target is named coccicheck and calls the coccicheck front-end in the scripts directory.
+
+Four basic modes are defined: patch, report, context, and org. The mode to use is specified by setting the MODE variable with MODE=<mode>.
+
+patch proposes a fix, when possible.
+report generates a list in the following format: file:line:column-column: message
+context highlights lines of interest and their context in a diff-like style.Lines of interest are indicated with -.
+org generates a report in the Org mode sorry shaktiman format of Emacs.
+Note that not all semantic patches implement all modes. For easy use of Coccinelle, the default mode is “report”.
+
+Two other modes provide some common combinations of these modes.
+
+chain tries the previous modes in the order above until one succeeds.
+rep+ctxt runs successively the report mode and the context mode. It should be used with the C option (described later) which checks the code on a file basis.
+Examples
