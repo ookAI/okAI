@@ -1,4 +1,4 @@
-**THE FOLLOWING DOCUMENTATION IS TAKEN FROM SCIKITLEARN**
+** THE FOLLOWING DOCUMENTATION IS TAKEN FROM SCIKITLEARN **
 
 sklearn.linear_model.LinearRegression
 class sklearn.linear_model.LinearRegression(fit_intercept=True, normalize=False, copy_X=True, n_jobs=None)
