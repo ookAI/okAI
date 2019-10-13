@@ -1,7 +1,7 @@
-## THE FOLLOWING DOCUMENTATION IS TAKEN FROM SCIKITLEARN
+**THE FOLLOWING DOCUMENTATION IS TAKEN FROM SCIKITLEARN**
 
-## sklearn.linear_model.LinearRegression
-### class sklearn.linear_model.LinearRegression(fit_intercept=True, normalize=False, copy_X=True, n_jobs=None)
+sklearn.linear_model.LinearRegression
+class sklearn.linear_model.LinearRegression(fit_intercept=True, normalize=False, copy_X=True, n_jobs=None)
 Parameters:	
 fit_intercept : boolean, optional, default True
 whether to calculate the intercept for this model. If set to False, no intercept will be used in calculations (e.g. data is expected to be already centered).
@@ -14,6 +14,6 @@ If True, X will be copied; else, it may be overwritten.
 
 n_jobs : int or None, optional (default=None)
 The number of jobs to use for the computation. This will only provide speedup for n_targets > 1 and sufficient large problems. None means 1 unless in a joblib.parallel_backend context. -1 means using all processors. See Glossary for more details.
-#### MISSING PART
+#### MISSING PART ###
 intercept_ : array
 Independent term in the linear model.
