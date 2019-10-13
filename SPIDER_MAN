@@ -1,7 +1,7 @@
 *** THIS TEXT IS TAKEN FROM MATPLOTLIB ***
 
 matplotlib.pyplot.imshow
-Display an image, i.e. data on a 2D regular raster.
+Display an image, i.e. data on a 2D regular raster
 
 Parameters:	
 X : array-like or PIL image
