@@ -1,0 +1,16 @@
+*** TEXT TAKEN FROM MATPLOTLIB***
+matplotlib.pyplot.matshow
+
+Display an array as a matrix in a new figure window.
+
+The origin is set at the upper left hand corner and rows (first dimension of the array) are displayed horizontally. The aspect ratio of the figure window is that of the array, unless this would make an excessively short or narrow figure.
+Tick labels for the xaxis are placed on top.
+
+Parameters:	
+A : array-like(M, N)
+The Array to be displayed.
+
+fignum : None or int or False
+If None, create a new figure window with automatic numbering.
+If a nonzero integer, draw into the figure with the given number (create it if it does not exist).
+If 0, use the current axes (or create one if it does not exist).
