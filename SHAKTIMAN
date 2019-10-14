@@ -9,7 +9,7 @@ Four basic modes are defined: patch, report, context, and org. The mode to use i
 patch proposes a fix, when possible.
 report generates a list in the following format: file:line:column-column: message
 context highlights lines of interest and their context in a diff-like style.Lines of interest are indicated with -.
-org generates a report in the Org mode sorry shaktiman format of Emacs.
+org generates a report in the Org mode format of Emacs.
 Note that not all semantic patches implement all modes. For easy use of Coccinelle, the default mode is “report”.
 
 Two other modes provide some common combinations of these modes.
