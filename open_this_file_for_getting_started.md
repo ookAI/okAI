@@ -1,6 +1,6 @@
 # Github Terms:
 
-####FORK 
+#### FORK 
 A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the
 original project.
 [For More Information ](https://help.github.com/en/articles/fork-a-repo)
@@ -12,9 +12,9 @@ A branch is a parallel version of a repository. It is contained within the repos
 A clone is a copy of a repository that lives on your computer instead of on a website's server somewhere, or the act of making that copy. With your clone, you can edit the files in your preferred editor and use Git to keep track of your changes without having to be online. It is, however, connected to the remote version so that changes can be synced between the two. You can push your local changes to the remote to keep them synced when you're online
 #### Commit
 A commit, or "revision", is an individual change to a file (or set of files). It's like when you save a file, except with Git, every time you save it creates a unique ID (a.k.a. the "SHA" or "hash") that allows you to keep a record of what changes were made when and by who. Commits usually contain a commit message which is a brief description of what changes were made.
-####Issue
+#### Issue
 Issues are suggested improvements, tasks or questions related to the repository. Issues can be created by anyone (for public repositories), and are moderated by repository collaborators. Each issue contains its own discussion forum, can be labeled and assigned to a user
-####Merge
+#### Merge
 Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another. This often happens as a pull request (which can be thought of as a request to merge), or via the command line. A merge can be done automatically via a pull request via the GitHub web interface if there are no conflicting changes, or can always be done via the command line. For [more information on Merging a pull request.](https://help.github.com/en/articles/merging-a-pull-request)
 
 
@@ -47,9 +47,8 @@ merge in the changes into the repository. If not they may ask you to change the 
 
 ## HOW TO USE USE okAI
 GO to okai repository
-
+Follow the steps mentioned above
 Check the issues
-
 Look for the files and their respected issues
 
 solve the documentation errors and create a Pull Request
