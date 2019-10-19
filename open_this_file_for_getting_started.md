@@ -53,6 +53,5 @@ Look for the files and their respected issues
 
 solve the documentation errors and create a Pull Request
 
-
-So one can contribute to projects without the need to even code
+#### So one can contribute to projects without the need to even code
 
