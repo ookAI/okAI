@@ -1,5 +1,13 @@
 # Important Git commands
 
+Important git commands 
+
+
+### git add
+>**Usage: git add [file]  
+This command adds a file to the staging area.
+
+
 
 
 ### git config
