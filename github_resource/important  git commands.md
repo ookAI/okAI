@@ -31,15 +31,15 @@
 
 ### git diff
 >**Usage:** git diff  
-**This command shows the file differences which are not yet staged.
+**This command shows the file differences which are not yet staged.**
 
 ### git reset
 >**Usage:** git reset [file]  
-This command unstages the file, but it preserves the file contents.
+**This command unstages the file, but it preserves the file contents.**
 
 ### git log
 >**Usage:** git log  
-This command is used to list the version history for the current branch
+**This command is used to list the version history for the current branch**
 
 
 
