@@ -1,10 +1,10 @@
 # Important Git commands
 
+**Some important git commands:**
 
 ### git init
 
 >**Usage:** git init [repository name]
-
 **This command is used to start a new repository.**
 
 ### git config
@@ -28,6 +28,18 @@
 ### git add
 >**Usage:** git add [file]  
 **This command adds a file to the staging area.**
+
+### git diff
+>**Usage:** git diff  
+**This command shows the file differences which are not yet staged.
+
+### git reset
+>**Usage:** git reset [file]  
+This command unstages the file, but it preserves the file contents.
+
+### git log
+>**Usage:** git log  
+This command is used to list the version history for the current branch
 
 
 
