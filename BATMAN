@@ -1,15 +1,15 @@
 *** THE FOLLOWING TEXT IS TAKEN FROM FASTAI ***
 Training modules overview
 
-The <JUNK>fastai library structures its <JUNK>training process around the Learner class, whose object binds together
-a PyTorch model, a dataset, an optimizer, and a loss function; the <JUNK>entire learner object then will allow us to 
+The fastai library structures its training process around the Learner class, whose object binds together
+a PyTorch model, a dataset, an optimizer, and a loss function; the entire learner object then will allow us to 
 launch training.
-basic_train defines this Learner <JUNK>class, along with the wrapper around the<JUNK> PyTorch <JUNK>optimizer that the
-library<JUNK> uses. It defines the basic training loop that <JUNK>is <JUNK>used each time you <JUNK>call the fit method
+basic_train defines this Learner class, along with the wrapper around the PyTorch optimizer that the
+library uses. It defines the basic training loop that is used each time you call the fit method
 (or one of its variants) in fastai. This training loop is very bare-bones and has very few lines of codes; you can customize 
 it by supplying an optional Callback argument to the fit method.
-callback defines the Callback<JUNK> class and the CallbackHandler<JUNK> class that <JUNK>is responsible for the communication
-between<JUNK> the training <JUNK>loop and the <JUNK>Callback's methods. The CallbackHandler <JUNK>maintains a state dictionary 
+callback defines the Callback class and the CallbackHandler class that is responsible for the communication
+between the training <JUNK>loop and the <JUNK>Callback's methods. The CallbackHandler <JUNK>maintains a state dictionary 
 able to provide each Callback object all the information of the training <JUNK>loop it belongs to, putting any imaginable tweaks
 of the training <JUNK>loop within your <JUNK>reach.
 callbacks implements each predefined Callback class <JUNK>of the fastai library in <JUNK>a separate module. Some modules deal 
