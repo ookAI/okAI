@@ -1,9 +1,9 @@
 *** THE FOLLOWING TEXT IS TAKEN FROM FASTAI ***
 Training modules overview
 
-The <JUNK>fastai library structures its <JUNK>training process around the Learner class, whose object binds together
-a PyTorch model, a dataset, an optimizer, and a loss function; the <JUNK>entire learner object then will allow us to 
-launch training
+The fastai library structures its <JUNK>training process around the Learner class, whose object binds together
+a PyTorch model, a dataset, an optimizer, and a loss function; the entire learner object then will allow us to 
+launch training<JUNK>
 basic_train defines this Learner <JUNK>class, along with the wrapper around the<JUNK> PyTorch <JUNK>optimizer that the
 library<JUNK> uses. It defines the basic training loop that <JUNK>is <JUNK>used each time you <JUNK>call the fit method
 (or one of its variants) in fastai. This training loop is very bare-bones and has very few lines of codes; you can customize 
@@ -20,4 +20,5 @@ train then uses these callbacks to implement useful helper functions.<JUNK> Last
 and classes you might want to use <JUNK>to evaluate your training results; simpler metrics are implemented as <JUNK>functions 
 while more complicated ones as subclasses of Callback. For more details on implementing metrics as Callback, please refer to 
 creating your own metrics.
+
 
